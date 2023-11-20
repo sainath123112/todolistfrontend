@@ -1,12 +1,12 @@
-import { createContext } from 'react'
+import { createContext, useState } from 'react'
 
 export const containerProvider = createContext("Default value")
 
 function ContextContainer({children}) {
-
-    const hello = "Hello";
+    const [ path, setPath ] = useState("");
     const providerValue = {
-        hello: hello
+        path: path,
+        setPath: setPath
     }
   return (
     <containerProvider.Provider value={providerValue}>
