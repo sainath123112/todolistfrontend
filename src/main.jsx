@@ -9,6 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <ContextContainer>
       <App />
    </ContextContainer>
- 
   </React.StrictMode>,
 )
