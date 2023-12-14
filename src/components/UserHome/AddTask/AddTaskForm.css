@@ -1,0 +1,43 @@
+.priority-select:after
+{
+    content: "<";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 0;
+    top: 0;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    pointer-events: none;
+
+}
+.priority-select
+{
+    position: relative;
+}
+
+.typeoftask-select:after
+{
+    content: "<";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 0;
+    top: 0;
+    font-size: 26px;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    pointer-events: none;
+
+}
+.typeoftask-select
+{
+    position: relative;
+}
